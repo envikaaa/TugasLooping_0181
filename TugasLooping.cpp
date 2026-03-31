@@ -95,6 +95,14 @@ int main () {
                 inputAngka();
                 tampilHasilPrima();
                 break;
+            case 2:
+                inputAngka();
+                tampilHasilFibonacci();
+                break;
+                
+            case 0:
+                cout << "\nTerima kasih telah menggunakan program ini.\n";
+                return 0;
         }
     }
 }
