@@ -61,4 +61,8 @@ void tampilHasilPrima() {
 }
 
 // Prosedur untuk menampilkan hasil pengecekan Fibonacci
-void tampilHasilFibonacci()
+void tampilHasilFibonacci() {
+    cout << "\nHasil : ";
+    if (isPrima(angka))
+        cout << angka << " adalah bilangan PRIMA." << endl;
+}
