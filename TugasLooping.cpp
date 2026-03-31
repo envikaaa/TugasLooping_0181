@@ -74,4 +74,13 @@ void tampilMenu() {
     cout << "\n=========================================" << endl;
     cout << "       PROGRAM CEK BILANGAN" << endl;
     cout << "=========================================" << endl;
+    cout << "1. Cek Bilangan Prima" << endl;
+    cout << "2. Cek Bilangan Fibonacci" << endl;
+    cout << "0. Keluar Program" << endl;
+    cout << "=========================================" << endl;
+    cout << "Pilih menu (0-2): ";
 }
+
+//=============================================
+//MAIN FUNCTION
+//=============================================
