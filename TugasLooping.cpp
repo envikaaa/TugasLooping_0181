@@ -1,17 +1,17 @@
 #include <iostream>
 using namespace std;
 
-// =============================================
-// VARIABEL GLOBAL
-// =============================================
+//=============================================
+//VARIABEL GLOBAL
+//=============================================
 int angka = 0;
 int pilihan = 0;
 
-// =============================================
-// FUNCTION PENGECEKAN
-// =============================================
+//=============================================
+//FUNCTION PENGECEKAN
+//=============================================
 
-// Function untuk mengecek bilangan prima menggunakan while loop
+//Function untuk mengecek bilangan prima menggunakan while loop
 bool isPrima(int n) {
     if (n <= 1) return false;
     if (n == 2 || n == 3) return true;
@@ -26,7 +26,7 @@ bool isPrima(int n) {
     return true;
 }
 
-// Function untuk mengecek bilangan Fibonacci menggunakan while loop
+//Function untuk mengecek bilangan Fibonacci menggunakan while loop
 bool isFibonacci(int n) {
     if (n < 0) return false;
     if (n == 0 || n == 1) return true;
@@ -41,17 +41,17 @@ bool isFibonacci(int n) {
     }
 }
 
-// =============================================
-// PROSEDURAL (VOID FUNCTION)
-// =============================================
+//=============================================
+//PROSEDURAL (VOID FUNCTION)
+//=============================================
 
-// Prosedur untuk menerima input angka
+//Prosedur untuk menerima input angka
 void inputAngka() {
     cout << "Masukkan angka yang ingin dicek: ";
     cin >> angka;
 }
 
-// Prosedur untuk menampilkan hasil pengecekan prima
+//Prosedur untuk menampilkan hasil pengecekan prima
 void tampilHasilPrima() {
     cout << "\nHasil : ";
     if (isPrima(angka))
@@ -60,11 +60,16 @@ void tampilHasilPrima() {
         cout << angka << " BUKAN bilangan prima." << endl;
 }
 
-// Prosedur untuk menampilkan hasil pengecekan Fibonacci
+//Prosedur untuk menampilkan hasil pengecekan Fibonacci
 void tampilHasilFibonacci() {
     cout << "\nHasil : ";
     if (isPrima(angka))
         cout << angka << " adalah bilangan PRIMA." << endl;
     else
         cout << angka << " TIDAK termasuk dalam deret Fibonacci." << endl;
+}
+
+//Function untuk menampilkan menu
+void tampilMenu() {
+    
 }
