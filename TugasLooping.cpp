@@ -65,4 +65,6 @@ void tampilHasilFibonacci() {
     cout << "\nHasil : ";
     if (isPrima(angka))
         cout << angka << " adalah bilangan PRIMA." << endl;
+    else
+        cout << angka << " TIDAK termasuk dalam deret Fibonacci." << endl;
 }
