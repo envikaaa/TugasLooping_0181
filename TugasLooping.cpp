@@ -25,3 +25,6 @@ bool isPrima(int n) {
     }
     return true;
 }
+
+// Function untuk mengecek bilangan Fibonacci menggunakan while loop
+bool isFibonacci(int n)
