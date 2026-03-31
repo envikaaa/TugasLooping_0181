@@ -6,3 +6,6 @@ using namespace std;
 // =============================================
 int angka = 0;
 int pilihan = 0;
+
+// Function untuk mengecek bilangan prima menggunakan while loop
+bool isPrima(int n)
