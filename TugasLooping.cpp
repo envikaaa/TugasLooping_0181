@@ -71,5 +71,7 @@ void tampilHasilFibonacci() {
 
 //Function untuk menampilkan menu
 void tampilMenu() {
-    
+    cout << "\n=========================================" << endl;
+    cout << "       PROGRAM CEK BILANGAN" << endl;
+    cout << "=========================================" << endl;
 }
